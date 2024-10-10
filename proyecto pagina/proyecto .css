@@ -1,0 +1,56 @@
+body{
+    border: 1px solid black;
+    width: 86% ;
+    margin:auto;
+}
+h1{
+    color: rgb(124, 47, 47);
+    margin: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+li{
+display: inline-block;
+background-color: red;
+color: white;
+width:20%;
+text-align: center;
+padding: 10px 0;
+}   
+ol{
+    background-color: black;
+    padding: 0;
+}
+li:hover{
+    background-color: grey;
+}
+main{
+    padding:0 20px ;
+}
+p{
+    text-align: justify;
+}
+h2{
+    background-color: rgb(250, 243, 235);
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+p.volver{
+    background-color: bisque;
+    text-align: right;
+}
+h2:target{
+    background-color: rgb(145, 90, 24);
+}
+li:active{
+    background-color: rgb(78, 17, 17);
+}
+p.volver:active{
+    background-color:rgb(63, 63, 22);
+}
