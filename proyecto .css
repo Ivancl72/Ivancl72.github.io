@@ -17,6 +17,9 @@ width:20%;
 text-align: center;
 padding: 10px 0;
 }   
+a{
+    text-decoration: none;
+}
 ol{
     background-color: black;
     padding: 0;
@@ -48,7 +51,7 @@ p.volver{
 h2:target{
     background-color: rgb(145, 90, 24);
 }
-li:active{
+li:{
     background-color: rgb(78, 17, 17);
 }
 p.volver:active{
