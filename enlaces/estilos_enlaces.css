@@ -1,0 +1,15 @@
+h2{
+    color: red;
+}
+li{
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid #fff;
+}
+ol{
+    padding: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
