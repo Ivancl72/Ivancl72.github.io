@@ -1,13 +1,15 @@
-
 body {
     font-family: Arial, sans-serif;
-    margin:0 auto ;
-    padding: 0;    
-    border: 2px solid black;
+    margin: 0 auto;
+    padding: 0;
+    border: 2px solid #000;
     width: 85%;
+    background-color: #ffffff;
+    color: #1a1a1a;
 }
-section{
-    background-color:rgb(230, 226, 226);
+
+section {
+    background-color: #f4f4f4;
 }
 
 header {
@@ -15,22 +17,24 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: black;
-    font-family: bungee spice;
+    background-color: #000;
+    font-family: "Bungee Spice", cursive;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
 }
-h1{
-    font-family:bungee spice;    
-    color: #854500;
+
+h1 {
+    font-family: "Bungee Spice", cursive;
+    color: #ff7a00;
 }
+
 .logo {
     font-size: 2rem;
     font-weight: bold;
-    color: #000;
+    color: #ffffff;
     margin-right: 20px;
 }
 
@@ -44,39 +48,39 @@ nav .navbar {
     gap: 15px;
     margin: 0;
     padding: 0;
-
 }
 
 nav .navbar li a {
     text-decoration: none;
     font-size: 1.1rem;
-    color: #000;
+    color: #ffffff;
     padding: 5px 10px;
-    background-color: #ccc;
+    background-color: #005f99;
     border-radius: 5px;
-
 }
 
 nav .navbar li a:hover {
-    background-color: #f1d79d;
+    background-color: #003f66;
     color: #fff;
     transform: scale(1.1);
 }
 
 main {
     padding: 20px;
-    background-color: #f9e0ae;
+    background-color: #fff8f0;
 }
 
 h2 {
-    color: #854500;
+    color: #cc4400;
     text-align: center;
     margin-bottom: 10px;
-    font-family: bungee spice;
+    font-family: "Bungee Spice", cursive;
 }
 
 .image-container {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
 }
 
@@ -89,30 +93,31 @@ h2 {
 
 .image-item img {
     width: 100%;
-    border: 2px solid #ccc;
+    border: 2px solid #888;
     border-radius: 10px;
 }
 
 .image-item p {
     margin-top: 5px;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    color: #333;
 }
 
 footer {
-    background-color: #333;
+    background-color: #1a1a1a;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    margin-top: 0px;
 }
+
 #MEXICANFOOD {
     text-align: center;
     padding: 20px;
-    background-color:rgb(230, 226, 226);
+    background-color: #f4f4f4;
 }
 
 #MEXICANFOOD h2 {
-    color: #f07a00;
+    color: #cc4400;
     font-size: 2rem;
     margin-bottom: 10px;
 }
@@ -124,25 +129,25 @@ footer {
 
 .food-container {
     display: flex;
-    justify-content: space-between; 
-    gap: 20px; 
+    justify-content: space-between;
+    gap: 20px;
     align-items: flex-start;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .food-item {
     flex: 1;
     max-width: 30%;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     padding: 10px;
-    border: 2px solid #ddd;
+    border: 2px solid #999;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .food-item img {
-    width: 100%; 
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
@@ -150,109 +155,58 @@ footer {
 .food-item h3 {
     font-size: 1.2rem;
     margin: 10px 0;
-    color: #333;
+    color: #222;
 }
 
 .food-item p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     margin-bottom: 10px;
-    color: #666;
+    color: #444;
 }
 
 .food-item a {
     text-decoration: none;
     font-size: 0.9rem;
-    color: #007BFF;
+    color: #0066cc;
     font-weight: bold;
 }
 
 .food-item a:hover {
     text-decoration: underline;
 }
-#oriental {
+
+#oriental, #CARNAZAS, #DELMAR, #BURGUERS, #CLASIC {
     text-align: center;
     padding: 20px;
-    background-color:rgb(230, 226, 226);
+    background-color: #f4f4f4;
 }
 
-#oriental h2 {
-    color: #f07a00;
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-#oriental p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-}
-#CARNAZAS {
-    text-align: center;
-    padding: 20px;
-    background-color:rgb(230, 226, 226);
-}
-
-#CARNAZAS h2 {
-    color: #f07a00;
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-#CARNAZAS p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-}
-#DELMAR {
-    text-align: center;
-    padding: 20px;
-    background-color:rgb(230, 226, 226);
-}
-
-#DELMAR h2 {
-    color: #f07a00;
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-#DELMAR p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-}
-#BURGUERS {
-    text-align: center;
-    padding: 20px;
-
-}
-
-#BURGUERS h2 {
-    color: #f07a00;
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-#BURGUERS p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-}
-#CLASIC {
-    text-align: center;
-    padding: 20px;
-
-}
-
+#oriental h2,
+#CARNAZAS h2,
+#DELMAR h2,
+#BURGUERS h2,
 #CLASIC h2 {
-    color: #f07a00;
+    color: #cc4400;
     font-size: 2rem;
     margin-bottom: 10px;
+    text-align: center;
 }
 
+#oriental p,
+#CARNAZAS p,
+#DELMAR p,
+#BURGUERS p,
 #CLASIC p {
     font-size: 1.1rem;
     margin-bottom: 20px;
+    text-align: center;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
+
 @media screen and (max-width: 420px) {
     header {
         display: flex;
@@ -269,17 +223,17 @@ a{
     }
 
     .logo {
-        width: 50px; 
+        width: 50px;
         height: 50px;
     }
 
     h1 {
-        font-size: 1.2rem; 
+        font-size: 1.2rem;
         margin: 5px 0;
     }
 
     .chef-image {
-        width: 60px; 
+        width: 60px;
         height: auto;
     }
 
@@ -305,7 +259,75 @@ a{
         padding: 8px;
         display: block;
         width: 100%;
-        background-color: #f8f8f8;
+        background-color: #e0e0e0;
         border-radius: 5px;
+        color: #000;
+    }
+
+    .navbar li a:hover {
+        background-color: #999;
+        color: #fff;
+    }
+}
+nav .navbar {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav .navbar li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #ffffff;
+    padding: 8px 12px;
+    background-color: #005f99;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav .navbar li a:hover {
+    background-color: #003f66;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    nav .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #000;
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+
+    nav .navbar.active {
+        display: flex;
+    }
+
+    nav .navbar li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    nav .navbar li a {
+        width: 100%;
+        display: block;
     }
 }
